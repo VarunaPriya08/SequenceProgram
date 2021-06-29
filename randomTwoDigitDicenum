@@ -1,0 +1,9 @@
+#! /bin/bash -x
+
+#Two random numbers
+DICE1=$((RANDOM%(6) + 1))
+DICE2=$((RANDOM%(6) + 1))
+
+#Add two numbers
+sum=$((DICE1+DICE2 ))
+echo=$sum
