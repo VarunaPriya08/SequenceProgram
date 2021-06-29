@@ -1,0 +1,9 @@
+#!/bin/bash -x
+
+ft=feet
+N=42
+in=inches
+
+
+result="$N $in = $[N/12] $ft"
+echo $result
